@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100;1,200;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+
+body {
+  font-family: "Sora", sans-serif !important;
+}
+.login {
+  width: 120px;
+  margin-left: 10px;
+}
+/* */
+
+.dis {
+  font-size: 52px;
+  font-family: sora;
+}
+.dos {
+  font-size: 52px;
+  color: rgba(251, 175, 0, 1);
+}
+.search-form {
+  min-height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.search-bar {
+  border: 0.5px solid #fbaf00;
+  color: #fbaf00;
+  background-color: #1a1405;
+  width: 437px;
+  height: 45px;
+  border-radius: 51px;
+  margin: 10px;
+  padding: 10px;
+}
+.Arts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}

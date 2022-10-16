@@ -1,0 +1,33 @@
+ // const [search, setSearch] = useState("");
+  // const [arts, setArts] = useState([]);
+  // const updateState = (e) => {
+  //     setSearch(e.target.value);
+  // }
+  // useEffect(()=>{
+  //     getSearch();
+  // }, [])
+  // const getSearch = () => {
+  //     fetch("https://api.artic.edu/api/v1/artworks")
+  //       .then((response) => {
+  //         return response.json();
+  //       })
+  //       .then((data) => {
+  //         console.log(data.data);
+  //         setArts(data.data);
+  //       })
+  //       .catch((err) => {
+  //         return err.message;
+  //       });
+  // }
+  // return (
+  //   <div className="search" >
+  //     <form action="" method="GET">
+  //       <input type="text" className="search-bar" value={search} onChange={updateState}/>
+  //       <button type="submit" className="search-button">Search</button>
+  //         </form>
+  //         {arts.map(art => {
+  //             console.log(art);
+  //             return <Arts title={art.title} art_display={art.art_display} key={art.image_id} />
+  //         })};
+  //   </div>
+  // );
